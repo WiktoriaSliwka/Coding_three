@@ -1,0 +1,65 @@
+
+.bookshelf {
+    width: 600px;
+    height: 100px;
+    background-color: brown;
+    text-align: center;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.title{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+    color: purple;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.book1 {
+      background-color: #c02b5a;
+      color: white;
+      padding: 10px;
+      writing-mode: vertical-rl;
+      width: 50px;
+      height: 200px;
+}
+
+.book2 {
+      background-color: #2bc050;
+      color: white;
+      padding: 10px;
+      writing-mode: vertical-rl;
+      width: 50px;
+      height: 180px;
+}
+.book3 {
+      background-color: #2b41c0;
+      color: white;
+      padding: 10px;
+      writing-mode: vertical-rl;
+      width: 50px;
+      height: 175px;
+}
+.book4 {
+      background-color: #c0b12b;
+      color: white;
+      padding: 10px;
+      writing-mode: vertical-rl;
+      width: 50px;
+      height: 200px;
+}
+.book5 {
+      background-color: #818091;
+      color: white;
+      padding: 10px;
+      writing-mode: vertical-rl;
+      width: 80px;
+      height: 180px;
+}
