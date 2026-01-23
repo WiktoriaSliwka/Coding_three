@@ -1,0 +1,89 @@
+section{
+    width: 100%;
+    height: 500px;
+}
+section.one {
+    background-color: #313466;
+    background-image:
+     conic-gradient(
+        from  330deg at 50% 60%,
+        #5255bb 60deg, 
+        transparent 60deg),
+    conic-gradient(
+        from 150deg at 50% 30%,
+        #52bb9b 60deg, 
+        transparent 60deg);
+    background-size: 3rem 3rem;
+    /* what does the extra comma do?? */
+    background-position: 0 0, 1.5rem -.5rem;
+    
+}
+
+section.three{
+    background-color: black;
+    background-image: 
+    radial-gradient(
+    circle at 100% 50%,  
+    transparent 1rem,
+    #f1b1c1 1rem,
+    #f1b1c1 1.5rem,
+    /* steelblue 3rem,
+    steelblue 5rem, */
+    transparent 1.5rem
+    ),
+     radial-gradient(
+    circle at 0% 50%,  
+    transparent 1rem,
+    #f1b1c1 1rem,
+    #f1b1c1 1.5rem,
+    /* steelblue 3rem,
+    steelblue 5rem, */
+    transparent 1.5rem
+    );
+
+    /* background-size: 10rem 10rem; */
+    background-size: 5rem 5rem;
+    background-position: 0 0 , 0 2.5rem;
+
+}
+section.four{
+    background-color: black;
+    background-image:
+    radial-gradient(
+        circle, 
+        transparent 1rem,
+    rgba(14, 14, 14, 0.769)1rem),
+
+    linear-gradient(teal .5rem, transparent .5rem),
+    linear-gradient(90deg, teal .5rem, transparent .5rem);
+    background-size: 5rem 5rem;
+    background-position: 
+    5.25rem 5.25rem, 2.5rem 2.5rem, 2.5rem 2.5rem; 
+    /* half the size of size centers the circles */
+    ;
+}
+
+section.five{
+    background-color: hsl(0, 39%, 15%);
+    background-image: 
+    linear-gradient(
+        -45deg,
+        transparent 75%,
+        hsl(0, 39%, 70%) 75%),
+        linear-gradient(
+        45deg,
+        transparent 75%,
+        hsl(0, 39%, 70%) 75%) ,
+        linear-gradient(
+        -135deg,
+        transparent 75%,
+        hsl(0, 39%, 70%) 75%)  ,
+        linear-gradient(
+        135deg,
+        transparent 75%,
+        hsl(0, 39%, 70%) 75%);
+    background-size: 4rem 4rem;
+    background-position: 2rem 0, 2rem 0, 0 0, 0 0;
+    ;
+}
+

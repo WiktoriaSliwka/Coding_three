@@ -25,15 +25,10 @@
       gap: 40px;
 }
 
-/* .container > div {
-  border-radius: 5px;
-  padding: 10px;
-  background-color: rgb(207 232 220);
-  border: 2px solid rgb(79 185 227);
-} */
+
 
 .cover img{
-    width: 200px;
+    width: 300px;
     height: auto; 
 }
 .cover {
@@ -64,8 +59,9 @@
 }
 
 .two{
- color: rgb(35, 37, 34);
- font-family: "Alfa Slab One", serif;
+ color: rgb(209, 245, 9);
+ text-shadow: 4px 0 0 #2c136b, 0 -4px 0 #2c136b, 0 4px 0 #2c136b, -4px 0 0 #2c136b;
+ font-family: "Gravitas One", serif;
   font-size: 45px;
     margin-top: 25px;
     font-weight: bold;
@@ -81,19 +77,22 @@
 }
 .four{
  color: rgb(97, 128, 64);
- font-family: "Alfa Slab One", serif;
+ text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+ font-family: "Special Gothic Expanded One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 45px;
     margin-top: 25px;
-    font-weight: bold;
+    
 }
 .five{
  color: rgb(242, 232, 30);
  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
  font-family: "Gravitas One", serif;
  font-weight: 400;
-  font-size: 45px;
-    margin-top: 25px;
-    font-weight: bold;
+font-size: 45px;
+margin-top: 25px;
+font-weight: 400;
 }
 
 
@@ -116,9 +115,12 @@
     text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
  .b{
-    font-family: 'Times New Roman', Times, serif;
-    color: black;
-    font-size: 20px;
+    font-family: "Gravitas One", serif;
+    color: rgb(253, 252, 252);
+    text-shadow: 1px 0 0 #2c136b, 0 -1px 0 #2c136b, 0 1px 0 #2c136b, -1px 0 0 #2c136b;
+    font-size: 25px;
+    font-weight: 400;
+    font-style: normal;
 }
  .c {
     font-family: "Jersey 25", sans-serif;
@@ -128,19 +130,24 @@
     font-weight: 700;
 } 
 .d{
-    font-family: 'Times New Roman', Times, serif;
-    color: black;
-    font-size: 20px;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    color: rgb(41, 38, 38);
+    text-shadow: 1px 0 0 #2c136b, 0 -1px 0 #2c136b, 0 1px 0 #2c136b, -1px 0 0 #2c136b;
+    font-size: 25px;
+    font-weight: 400;
+    font-style: normal;
 }  
 .e {
     font-family: "Gravitas One", serif;
-    color: black;
-    font-size: 15px;
+    color: rgb(192, 177, 177);
+    font-size: 20px;
 }
 
 .btn {
     padding: 12px 30px;
     border: none;
+    margin-top: 20px;
+    margin-left: 20px;
     border-radius: 50px; /* This creates the pill shape! */
     background-color: rgb(101, 101, 104);
     color: white;
@@ -154,3 +161,35 @@
     background-color: rgb(151, 173, 184);
     transform: scale(1.05);
 }
+
+.backdrop{
+    background-color: hsl(0, 4%, 70%);
+    background-image: 
+    linear-gradient(
+        -45deg,
+        transparent 75%,
+        hsl(0, 30%, 35%) 75%),
+        linear-gradient(
+        45deg,
+        transparent 75%,
+        hsl(0, 38%, 56%) 75%) ,
+        linear-gradient(
+        -135deg,
+        transparent 75%,
+        hsl(0, 3%, 56%) 75%)  ,
+        linear-gradient(
+        135deg,
+        transparent 75%,
+        hsl(0, 6%, 30%) 75%);
+    background-size: 6rem 7rem;
+    background-position: 2rem 0, 2rem 0, 0 0, 0 0;
+
+    /* ai */
+    min-height: 100vh;
+    width: 100%
+
+}
+ body{
+    margin: 0;
+    padding: 0;
+ }
